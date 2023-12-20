@@ -1,0 +1,105 @@
+﻿<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 50px;
+  width: 70%;
+  background-color: #00008B;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #000000;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 200%;
+    height: 200%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>A propos de nous</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Acceuil</a></li>
+      <li><a href="#">contact</a></li>
+      <li><a href="#">listes des projets</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Ce que nous faisons</h1>
+    <p>La stratégie digitale est un élément clé pour les entreprises qui souhaitent prospérer dans le monde numérique d’aujourd’hui. Elle consiste à utiliser les outils et les canaux numériques de manière stratégique pour atteindre des objectifs commerciaux spécifiques.
+
+La première étape de la stratégie digitale consiste à définir les objectifs que l’entreprise souhaite atteindre. Cela peut être d’augmenter la visibilité de la marque, d’attirer de nouveaux clients, d’augmenter les ventes ou de fidéliser la clientèle existante. Une fois que les objectifs sont clairs, l’entreprise peut commencer à élaborer un plan d’action.</p>
+    <p>Le plan d’action peut inclure la création d’un site web attrayant et convivial, la mise en place d’une présence active sur les réseaux sociaux, la mise en œuvre de campagnes publicitaires en ligne ciblées, l’optimisation du référencement pour améliorer la visibilité dans les moteurs de recherche, et bien plus encore..</p>
+    <p>La gestion des réseaux sociaux est également un aspect important de la stratégie digitale. Les entreprises peuvent utiliser les réseaux sociaux pour interagir avec leur public cible, partager du contenu pertinent, promouvoir leurs produits ou services, et construire une communauté engagée. Il est essentiel de choisir les plateformes sociales appropriées en fonction de la nature de l’entreprise et de son public cible.
+</p>
+ </p> Enfin, la mesure et l’analyse des résultats sont cruciales pour évaluer l’efficacité de la stratégie digitale. Les entreprises peuvent utiliser des outils d’analyse pour suivre les performances de leur site web, mesurer l’engagement sur les réseaux sociaux, évaluer l’efficacité des campagnes publicitaires, et apporter les ajustements nécessaires pour optimiser les résultats.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
